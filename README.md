@@ -1,3 +1,6 @@
 # Filter Lines Code
 
-A script for filtering the lines of the file with a specific format.
+#### Excluding and counting filtered lines in a text
+
+Count and exclude lines that start with a number, letter, etc.  fast and easy.
+
