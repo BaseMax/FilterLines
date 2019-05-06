@@ -38,7 +38,7 @@ if(isset($_POST['srt'])) {
 	$keep=$_POST['keep'];
 	$lines=explode("\n", $srt);
 	$output="";
-	file_put_contents("amir3-".rand(1000,9999).".txt",$srt);
+	// file_put_contents("execute-".rand(1000,9999).".txt",$srt);
 	foreach($lines as $line) {
 		if($keep == "none") {
 			// Keep
